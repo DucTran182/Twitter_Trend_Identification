@@ -13,7 +13,7 @@
 6. [Conclusion](#conclusion)
 
 ## Introduction
-This project is a React Native app designed to monitor and analyze Twitter trends and hashtags efficiently on Android devices. The app fetches trends, categorizes them, and retrieves relevant tweets for analysis. Before installing, please set up your Android Studio.
+This project is a React Native app designed to monitor and analyze Twitter trends and hashtags efficiently on Android devices. The app fetches trends, categorizes them, and retrieves relevant tweets for analysis. Before installing, please download and set up your Android Studio and Expo Go for best performance.
 
 ## Setup and Installation
 To run the app locally, follow these steps:
@@ -38,7 +38,15 @@ Trends and hashtags are categorized into predefined groups (e.g., Entertainment,
 
 ### Content Fetching
 Relevant tweets for selected trends or hashtags are fetched from the Twitter API using the `react-native-twitter` package.
-
+'''  const fetchTrends = async () => {
+    const client = new TwitterAPI({
+      apiKey: 'YOUR_API_KEY',
+      apiSecret: 'YOUR_API_SECRET',
+      accessToken: 'YOUR_ACCESS_TOKEN',
+      accessTokenSecret: 'YOUR_ACCESS_TOKEN_SECRET',
+    });
+'''
+Remember to replace 'YOUR_API_KEY', 'YOUR_API_SECRET', 'YOUR_ACCESS_TOKEN', and 'YOUR_ACCESS_TOKEN_SECRET' with your actual Twitter API credentials from X Developer Portal.
 ## Usage Instructions
 To use the app:
 

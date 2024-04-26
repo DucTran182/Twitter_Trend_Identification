@@ -13,7 +13,7 @@
 6. [Conclusion](#conclusion)
 
 ## Introduction
-This project is a React Native app designed to monitor and analyze Twitter trends and hashtags efficiently. The app fetches trends, categorizes them, and retrieves relevant tweets for analysis.
+This project is a React Native app designed to monitor and analyze Twitter trends and hashtags efficiently on Android devices. The app fetches trends, categorizes them, and retrieves relevant tweets for analysis. Before installing, please set up your Android Studio.
 
 ## Setup and Installation
 To run the app locally, follow these steps:

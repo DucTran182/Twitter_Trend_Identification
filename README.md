@@ -38,14 +38,14 @@ Trends and hashtags are categorized into predefined groups (e.g., Entertainment,
 
 ### Content Fetching
 Relevant tweets for selected trends or hashtags are fetched from the Twitter API using the `react-native-twitter` package.
-'''  const fetchTrends = async () => {
+``` const fetchTrends = async () => {
     const client = new TwitterAPI({
       apiKey: 'YOUR_API_KEY',
       apiSecret: 'YOUR_API_SECRET',
       accessToken: 'YOUR_ACCESS_TOKEN',
       accessTokenSecret: 'YOUR_ACCESS_TOKEN_SECRET',
     });
-'''
+```
 Remember to replace 'YOUR_API_KEY', 'YOUR_API_SECRET', 'YOUR_ACCESS_TOKEN', and 'YOUR_ACCESS_TOKEN_SECRET' with your actual Twitter API credentials from X Developer Portal.
 ## Usage Instructions
 To use the app:
